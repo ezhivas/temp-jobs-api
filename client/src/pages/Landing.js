@@ -8,22 +8,22 @@ const Landing = () => {
       <nav>
         <Logo />
       </nav>
-      <div className='container page'>
+      <div className="container page">
         {/* info */}
-        <div className='info'>
+        <div className="info">
           <h1>
             job <span>tracking</span> app
           </h1>
           <p>
-            Crucifix narwhal street art asymmetrical, humblebrag tote bag pop-up
-            fixie raclette taxidermy craft beer. Brunch bitters synth, VHS
-            crucifix heirloom meggings bicycle rights.
+            This is some kind of APP that helps to track the process while you
+            treing to find your first Dream Job in the software development. But
+            do not think that it'll help youin any way:)
           </p>
-          <Link to='/register' className='btn btn-hero'>
+          <Link to="/register" className="btn btn-hero">
             Login/Register
           </Link>
         </div>
-        <img src={main} alt='job hunt' className='img main-img' />
+        <img src={main} alt="job hunt" className="img main-img" />
       </div>
     </Wrapper>
   );
