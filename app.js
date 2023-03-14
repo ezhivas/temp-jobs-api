@@ -40,7 +40,9 @@ app.use(xss());
 // extra packages
 app.use('/api-docs', swaggerUI.serve, swaggerUI.setup(swaggerDocument));
 app.get('/', (req, res) => {
-  res.send('<h1>Jobs API</h1><a href="/api-docs">Documentation</a>');
+  res.send(
+    '<h1>Jobs API</h1><h2>IDK how it works, but it`s prikolno</h2><a href="/api-docs">Documentation</a>'
+  );
 });
 
 // routes
